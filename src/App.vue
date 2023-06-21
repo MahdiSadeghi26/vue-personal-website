@@ -1,5 +1,11 @@
 <template>
+ <!-- title on the top of page! -->
  <h1 class="header-title">Mehdi Sadeghi</h1>
+<!-- large Mehdi Sadeghi center of the page -->
+<div class="fullName">
+  <p class="lName">Mehdi</p>
+  <p class="lName">Sadeghi</p>
+</div>
 </template>
 
 <script>
@@ -50,15 +56,25 @@ body{
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-rows: repeat(3,1fr);
+  grid-template-columns: repeat(3,1fr);
+  
   .header-title{
     font-size: 30px;
     font-family: Montserrat-Bold;
     color: #8493BF;
     margin: 20px 0 0 41px;
-    align-self: flex-start;
-
+    justify-self: start;
+  }
+  .fullName{
+    font-family: Montserrat-Bold;
+    color: #CEB3F2;
+    font-size: 88px;
+    text-align: left;
+    grid-row: 2;
+    justify-self: start;
+    margin-left: 41px;
   }
 }
 </style>

@@ -70,7 +70,7 @@ body{
   .fullName{
     font-family: Montserrat-Bold;
     color: #CEB3F2;
-    font-size: 88px;
+    font-size: 80px;
     text-align: left;
     grid-row: 2;
     justify-self: start;

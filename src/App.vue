@@ -8,13 +8,15 @@
 </div>
 <!--Skills component end of the page! -->
 <Skills/>
+<!-- Face component  -->
+<!-- <Face/> -->
 </template>
 
 <script>
 import Skills from './components/Skills.vue';
-
+import Face from './components/Face.vue';
 export default {
-  components: { Skills },
+  components: { Skills, Face },
 }
 </script>
 
@@ -53,7 +55,7 @@ body{
   background-size: cover;
 }
 #app {
-  height: 90vh;
+  height: 100vh;
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

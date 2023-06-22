@@ -14,7 +14,7 @@ export default {
     .skillsContainer{
         justify-self: start;
         margin-left: 40px;
-        align-self: end;
+        align-self: center;
         grid-row: 3;
         color:#ffff ;
         .jobTitle{

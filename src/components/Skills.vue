@@ -20,7 +20,6 @@ export default {
         .jobTitle{
             font-family: Montserrat-Regular;
             font-size: 32px;
-            
         }
         .skillsList{
             font-family: Montserrat-Thin;

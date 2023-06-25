@@ -12,15 +12,13 @@ export default {
 </script>
 <style lang="scss">
 .faceContainer {
-    grid-column: 2;
-    grid-row: 1 /3;
-    justify-self: end;
-    align-content: end;
-    height: 100%;
+    position: absolute;
+    right: 0;
+    bottom: 10px;
     .eclipse{
         width: 400px;
         grid-column: 2;
-        opacity: .6;
+        opacity: .8;
         img{
             width: 100%;
         }

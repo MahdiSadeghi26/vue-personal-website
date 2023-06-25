@@ -65,6 +65,7 @@ body{
   grid-template-rows: repeat(3,1fr);
   grid-template-columns: repeat(2,1fr);
   overflow: hidden;
+  position: relative;
   .header-title{
     font-size: 30px;
     font-family: Montserrat-Bold;

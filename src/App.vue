@@ -14,9 +14,10 @@
     background-size: cover;
     width: 100vw;
     height: 100vh;
-  h1{
+    h1{
     color: white;
-    font-family: Montserrat-Thin;
+    font-family: "Montserrat";
+    font-weight: 100;
   }
 }
 </style>

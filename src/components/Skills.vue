@@ -77,4 +77,16 @@ export default {
         }
     }
 }
+// 768px
+@media screen and (max-width:768px) {
+    .skillsContainer{
+        width: 100%;
+        .jobTitle,.mySkills{
+            font-size: 20px;
+        }
+        .mySkills,.hireBtn{
+            margin-right: 60px;
+        }
+    }
+}
 </style>

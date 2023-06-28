@@ -82,9 +82,8 @@ import Skills from './components/Skills.vue';
       position: absolute;
       bottom: 0;
       right: 0;
-      width: 40%;
-      height: 50%;
-      min-height: 80vh;
+      width: 40%; 
+      height: 75vh;
       opacity: .7;
     }
 
@@ -93,13 +92,13 @@ import Skills from './components/Skills.vue';
       right: 10px;
       bottom: 0;
       width: 35%;
-      aspect-ratio: auto;
+      height: 65%;
     }
     // social Media
     .socialMedia{
       position: absolute;
       right: 10px;
-      top: 25%;
+      top: 30%;
       a{
         display: block; 
         img{
@@ -109,6 +108,42 @@ import Skills from './components/Skills.vue';
         }
         .githubLogo{
           width: 40px;
+        }
+      }
+    }
+  }
+}
+// Media query
+// max 1200px
+@media screen and (max-width:1200px) {
+  .container{
+    .leftSide{
+      h1{
+      font-size: 28px; 
+    }
+    .fullName{
+      font-size: 60px;
+    }
+
+    }
+    .rightSide{
+      .eclipse{
+        width: 47%;
+        height: auto;
+      }
+      .face{
+        width: 40%;
+      }
+      .socialMedia{
+        top: 20vh;
+        a{
+          img{
+            width: 30px;
+          }
+          .githubLogo{
+            width: 35px;
+            
+          }
         }
       }
     }

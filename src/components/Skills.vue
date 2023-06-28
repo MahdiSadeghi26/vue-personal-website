@@ -49,4 +49,23 @@ export default {
             }
         }
     }
+    // media query
+    // 1200px
+    @media screen and (max-width:1200px) {
+        .skillsContainer{
+            // align-items: center;
+            width: 350px;
+            .jobTitle{
+                font-size: 24px;
+               
+            }
+            .mySkills{
+                font-size: 24px;
+           
+            }
+            .hireBtn{
+                padding: 10px 40px;
+            }
+        }
+    }
 </style>

@@ -19,7 +19,12 @@
   
   </div>
    <!-- Right side Container -->
-   <div class="rightSide"></div>
+   <div class="rightSide">
+    <!-- purple ecplipse -->
+    <img class="eclipse" src="/public/image/eclipse.png" alt="image 404">
+    <!-- face -->
+    <img src="/public/image/face.png" alt="Image 404" class="face">
+   </div>
   </div>
 </template>
 
@@ -31,6 +36,7 @@
     height: 100vh;
     display: grid;
     grid-template-columns: 50% 50%;
+    // left side section
     .leftSide{
       display: flex;
       flex-direction: column;
@@ -50,8 +56,25 @@
         font-size: 70px;
       }    
     }
+    // Right side section
     .rightSide{
-      
+      position: relative;
+      .eclipse{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 40%;
+        height:50%;
+        min-height: 80vh;
+        opacity: .7;
+      }
+      .face{
+        position: absolute;
+        right: 10px;
+        bottom: 0;
+        width: 35%;
+        aspect-ratio: auto;
+      }
     }
 }
 </style>

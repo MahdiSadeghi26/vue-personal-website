@@ -149,4 +149,25 @@ import Skills from './components/Skills.vue';
     }
   }
 }
+// 992px
+@media screen and (max-width:992px) {
+  .container{
+    .leftSide{
+      h1{
+        font-size: 26px;
+      }
+      .fullName{
+        font-size: 50px;
+      }
+    }
+    .rightSide{
+      .eclipse{
+        height: 80vh;
+      }
+      .socialMedia{
+        top: 25%;
+      }
+    }
+  }
+}
 </style>

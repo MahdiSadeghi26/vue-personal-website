@@ -191,4 +191,50 @@ import Skills from './components/Skills.vue';
     }
   }
 }
+// 576 px
+@media screen and (max-width:576px) {
+  .container{
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 50%;
+   
+    
+    .leftSide{
+      padding-left: 17px;
+      justify-content: start;
+      h1{
+      color:#CEB3F2 ;
+        text-align: center;
+    }
+    .fullName{
+      margin: 50px 0;
+    }
+    }
+    .rightSide{
+      .eclipse{
+        width: 50%;
+        height:60vh ;
+      }
+      .face{
+        width: 50%;
+        height: 100%;
+      }
+      .socialMedia{
+         width: 40px;
+         left: 17px;
+         top: auto;
+         bottom: 0px;
+         height: 200px; 
+        a{
+          img{
+            width: 40px;
+          }
+          .githubLogo{
+            width: 40px;
+            content: url("public/image/github-mark-white.png");
+          }
+        }
+      }
+    }
+  }
+}
 </style>

@@ -89,4 +89,15 @@ export default {
         }
     }
 }
+@media screen and (max-width:576px) {
+    .skillsContainer{
+        .mySkills{
+            text-align: left;
+            font-weight: 200;
+        }
+        .hireBtn{
+            align-self: start;
+        }
+    }
+}
 </style>

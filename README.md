@@ -1,7 +1,25 @@
-# Vue 3 + Vite
+# Vue Calculator
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+my personal website designed with vue3 and sass 
 
-## Recommended IDE Setup
+## Installation
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+You can install with npm and pnpm
+```bash
+npm i
+```
+or
+```bash
+pnpm i
+```
+
+## Usage
+
+```bash
+vite
+```
+
+## Prodouciton
+```bsah
+vite build
+```
